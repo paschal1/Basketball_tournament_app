@@ -1,0 +1,105 @@
+Tikect
+id
+ticket type
+price
+availability
+start date
+end date
+sales quantity
+event id
+sales revenue
+status
+
+ticket type
+seat name
+seat limit
+seat rate
+status
+
+schedule
+id
+game id 
+date
+time
+venue
+team1
+team2
+game status
+reaults
+referees
+note
+
+games table
+id
+tournament id
+date
+time
+venue id
+team 1 id
+team 2 id
+referee 1 id 
+game status 
+result
+winner id
+notes 
+
+tournament table
+id
+name
+start date
+end date
+location
+organizer
+description
+status 
+registration deadline
+max teams
+min players per team
+max players per team
+rules
+prizes 
+notes 
+
+livescores
+game id
+tournament id
+date
+time
+team 1 id 
+team 1 name
+team 1 score
+team 2 id 
+team 2 name
+team 2 score
+game status 
+period
+game clock
+venue
+
+standings 
+id
+tournament id 
+team id
+team name
+number of game played
+wins
+losses
+point against 
+point differential 
+points
+rank
+notes
+
+bracket displays 
+id
+tournament id
+round
+matchup id
+team 1 id 
+team 1 name
+team 1 score
+team 2 id 
+team 2 name
+team 2 score
+winner id
+venue
