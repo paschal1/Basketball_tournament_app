@@ -30,44 +30,46 @@ use App\Http\Controllers\Admin\RefereeController;
 Route::get('/', function () {
     return view('frontend.index');
 });
+Route::middleware(['auth', 'IsAdmin'])->group(function () {
+    Route::get('admin/index', [App\Http\Controllers\Admin\AdminController::class, 'admin'])->name('admin/index');
+    Route::get('create', [ScheduleController::class, 'create'])->name('create');
+    Route::get('editschedule/{id}', [ScheduleController::class, 'editschedule'])->name('editschedule');
+    Route::get('view', [ScheduleController::class, 'view'])->name('view');
+    Route::post('store', [ScheduleController::class, 'store'])->name('store');
+    Route::put('update/{id}', [ScheduleController::class, 'update'])->name('update');
+    Route::post('destroy', [ScheduleController::class, 'destroy'])->name('destroy');
 
-Route::get('create', [ScheduleController::class, 'create'])->name('create');
-Route::get('editschedule/{id}', [ScheduleController::class, 'editschedule'])->name('editschedule');
-Route::get('view', [ScheduleController::class, 'view'])->name('view');
-Route::post('store', [ScheduleController::class, 'store'])->name('store');
-Route::put('update/{id}', [ScheduleController::class, 'update'])->name('update');
-Route::post('destroy', [ScheduleController::class, 'destroy'])->name('destroy');
+    Route::get('team_create', [TeamController::class, 'team_create'])->name('team_create');
+    Route::get('team_edit', [TeamController::class, 'team_edit'])->name('team_edit');
+    Route::get('team_view', [TeamController::class, 'team_view'])->name('team_view');
+    Route::post('post_team', [TeamController::class, 'post_team'])->name('post_team');
 
-Route::get('team_create', [TeamController::class, 'team_create'])->name('team_create');
-Route::get('team_edit', [TeamController::class, 'team_edit'])->name('team_edit');
-Route::get('team_view', [TeamController::class, 'team_view'])->name('team_view');
-Route::post('post_team', [TeamController::class, 'post_team'])->name('post_team');
+    // Player route
+    Route::get('player_create', [PlayerController::class, 'player_create'])->name('player_create');
+    Route::get('player_edit', [PlayerController::class, 'player_edit'])->name('player_edit');
+    Route::get('player_view', [PlayerController::class, 'player_view'])->name('player_view');
+    Route::post('post_player', [PlayerController::class, 'post_player'])->name('post_player');
 
-// Player route
-Route::get('player_create', [PlayerController::class, 'player_create'])->name('player_create');
-Route::get('player_edit', [PlayerController::class, 'player_edit'])->name('player_edit');
-Route::get('player_view', [PlayerController::class, 'player_view'])->name('player_view');
-Route::post('post_player', [PlayerController::class, 'post_player'])->name('post_player');
+    Route::resource('referees', RefereeController::class);
+    Route::resource('venues', VenueController::class);
+    Route::resource('tickets', TicketController::class);
+    Route::resource('games', GameController::class);
+    Route::resource('standings', StandingController::class);
+    Route::resource('livescores', LiveScoreController::class);
+    Route::resource('brackets', BracketDisplayController::class);
+    Route::resource('seats', TicketTypeController::class);
+    Route::resource('tournaments', TournamentController::class);
 
-Route::resource('referees', RefereeController::class);
-Route::resource('venues', VenueController::class);
-Route::resource('tickets', TicketController::class);
-Route::resource('games', GameController::class);
-Route::resource('standings', StandingController::class);
-Route::resource('livescores', LiveScoreController::class);
-Route::resource('brackets', BracketDisplayController::class);
-Route::resource('seats', TicketTypeController::class);
-Route::resource('tournaments', TournamentController::class);
-
-
+});
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('frontend.index');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.u
+    pdate');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
