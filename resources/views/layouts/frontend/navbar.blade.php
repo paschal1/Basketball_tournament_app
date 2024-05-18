@@ -23,7 +23,7 @@
                                         <ul>
                                             <li>
                                                 <figure>
-                                                    <a href="checkout.html"><img src="extra-images/cartbox-1.png" alt=""></a>
+                                                    <a href="checkout.html"><img src="{{asset('frontend/extra-images/cartbox-1.png')}}" alt=""></a>
                                                 </figure>
                                                 <div class="sportsmagazine-cartbox-text">
                                                     <h6><a href="checkout.html">Key Management Model The 60+ Models</a></h6>
@@ -33,7 +33,7 @@
                                             </li>
                                             <li>
                                                 <figure>
-                                                    <a href="checkout.html"><img src="extra-images/cartbox-2.png" alt=""></a>
+                                                    <a href="checkout.html"><img src="{{asset('frontend/extra-images/cartbox-2.png')}}" alt=""></a>
                                                 </figure>
                                                 <div class="sportsmagazine-cartbox-text">
                                                     <h6><a href="checkout.html">Pyramid Principle: Logic Writing &amp; Thinking</a></h6>
@@ -62,7 +62,17 @@
             @endif
                                 <!-- <li><i class="fa fa-user"></i> <a href="#" data-toggle="modal" data-target="#loginModal">Login</a></li> -->
                                 <!-- <li><i class="fa fa-sign-in"></i> <a href="#" data-toggle="modal" data-target="#signupModal">Sign Up</a></li> -->
-                            </ul>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-user"></i> Theophilus
+                                    </a>
+                                    <div class="dropdown-menu text-black pl-3" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Profile</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Log out</a>
+                                    </div>
+                                </li>
+                        </ul>
                         </aside>
                     </div>
                 </div>
@@ -73,7 +83,7 @@
             <div class="sportsmagazine-main-header">
                 <div class="container">
                     <div class="row">
-                        <aside class="col-md-2"><a href="index-2.html" class="sportsmagazine-logo"><img src="images/logo-1.png" alt=""></a></aside>
+                        <aside class="col-md-2"><a href="index-2.html" class="sportsmagazine-logo"><img src="{{asset('frontend/images/logo-1.png')}}" alt=""></a></aside>
                         <div class="col-md-10">
                             <div class="sportsmagazine-right-section">
                                 <nav class="navbar navbar-default">
@@ -88,14 +98,14 @@
                                     <div class="collapse navbar-collapse" id="navbar-collapse-1">
                                         <ul class="nav navbar-nav">
                                             <li class="active"><a href="#">Home</a>
-                                                <ul class="sportsmagazine-dropdown-menu">
+                                                <!-- <ul class="sportsmagazine-dropdown-menu">
                                                     <li><a href="index-2.html">Home One</a></li>
                                                     <li><a href="index-two.html">Home Two</a></li>
 
-                                                </ul>
+                                                </ul> -->
                                             </li>
                                             <li class="sportsmagazine-megamenu-li"><a href="#">FEATURES</a>
-                                                <ul class="sportsmagazine-megamenu">
+                                                <!-- <ul class="sportsmagazine-megamenu">
                                                     <li class="row">
                                                         <div class="col-md-2">
                                                             <h4>Link 1</h4>
@@ -136,10 +146,10 @@
                                                             </a>
                                                         </div>
                                                     </li>
-                                                </ul>
+                                                </ul> -->
                                             </li>
                                             <li><a href="#">PLAYERS</a>
-                                                <ul class="sportsmagazine-dropdown-menu">
+                                                <!-- <ul class="sportsmagazine-dropdown-menu">
                                                     <li><a href="player-grid.html">Player Grid</a>
                                                         <ul class="sportsmagazine-dropdown-menu">
                                                             <li><a href="player-grid.html">Player Grid W/O/S</a></li>
@@ -164,10 +174,10 @@
                                                             <li><a href="player-detail-wls.html">Player Detail W/R/S</a></li>
                                                         </ul>
                                                     </li>
-                                                </ul>
+                                                </ul> -->
                                             </li>
                                             <li><a href="#">OUR NEWS</a>
-                                                <ul class="sportsmagazine-dropdown-menu">
+                                                <!-- <ul class="sportsmagazine-dropdown-menu">
                                                     <li><a href="blog-grid.html">Blog Grid</a>
                                                         <ul class="sportsmagazine-dropdown-menu">
                                                             <li><a href="blog-grid.html">Blog Grid W/O/S</a></li>
@@ -191,10 +201,10 @@
                                                             <li><a href="blog-detail-wls.html">Blog Detail W/L/S</a></li>
                                                         </ul>
                                                     </li>
-                                                </ul>
+                                                </ul> -->
                                             </li>
                                             <li><a href="#">OUR SHOP</a>
-                                                <ul class="sportsmagazine-dropdown-menu">
+                                                <!-- <ul class="sportsmagazine-dropdown-menu">
                                                     <li><a href="shop-grid.html">Shop Grid</a>
                                                         <ul class="sportsmagazine-dropdown-menu">
                                                             <li><a href="shop-grid.html">Shop Grid W/O/S</a></li>
@@ -214,10 +224,10 @@
                                                             <li><a href="shop-detail-wls.html">Shop Detail W/L/S</a></li>
                                                         </ul>
                                                     </li>
-                                                </ul>
+                                                </ul> -->
                                             </li>
                                             <li class="sportsmagazine-megamenu-li"><a href="#">Contact us</a>
-                                                <ul class="sportsmagazine-megamenu">
+                                                <!-- <ul class="sportsmagazine-megamenu">
                                                     <li class="row">
                                                         <div class="col-md-2">
                                                             <h4>Links 1</h4>
@@ -239,11 +249,11 @@
                                                         <div class="col-md-5">
                                                             <h4>sub category widget</h4>
                                                             <a href="#" class="sportsmagazine-thumbnail">
-                                                                <img src="extra-images/mega-menuadd.jpg" alt="" />
+                                                                <img src="{{asset('/extra-images/mega-menuadd.jpg')}}" alt="" />
                                                             </a>
                                                         </div>
                                                     </li>
-                                                </ul>
+                                                </ul> -->
                                             </li>
                                         </ul>
                                     </div>
