@@ -16,9 +16,9 @@
                         <li><a href="https://plus.google.com/" class="sportsmagazine-colorhover fa fa-google-plus-square"></a></li>
                     </ul>
                     <ul class="sportsmagazine-info-list">
-                        <li><i class="fa fa-map-marker"></i> <span>9907 Salford road, east London Uk 2807</span></li>
-                        <li><i class="fa fa-phone"></i> <span>(+92) 123 45 678 - 987 65 432</span></li>
-                        <li><i class="fa fa-envelope"></i> <span><a href="mailto:name@email.com">info@example.com</a></span></li>
+                        <li><i class="fa fa-map-marker"></i> <span>#40 Alogwu Road Alakahia Akpor, Port Harcourt, Rivers State, Nigeria</span></li>
+                        <li><i class="fa fa-phone"></i> <span>08130062780</span></li>
+                        <li><i class="fa fa-envelope"></i> <span><a href="mailto:name@email.com">basketballtournament.rf.gd</a></span></li>
                     </ul>
                 </aside>
                 <!--// Widget Contact Info \\-->
@@ -47,14 +47,14 @@
                         <h2>Flicker Photos</h2>
                     </div>
                     <ul>
-                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="extra-images/widget-gallery-1.jpg" alt=""></a></li>
-                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="extra-images/widget-gallery-2.jpg" alt=""></a></li>
-                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="extra-images/widget-gallery-3.jpg" alt=""></a></li>
-                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="extra-images/widget-gallery-4.jpg" alt=""></a></li>
-                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="extra-images/widget-gallery-5.jpg" alt=""></a></li>
-                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="extra-images/widget-gallery-6.jpg" alt=""></a></li>
-                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="extra-images/widget-gallery-7.jpg" alt=""></a></li>
-                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="extra-images/widget-gallery-8.jpg" alt=""></a></li>
+                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/widget-gallery-1.jpg')}}" alt=""></a></li>
+                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/widget-gallery-2.jpg')}}" alt=""></a></li>
+                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/widget-gallery-3.jpg')}}" alt=""></a></li>
+                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/widget-gallery-4.jpg')}}" alt=""></a></li>
+                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/widget-gallery-5.jpg')}}" alt=""></a></li>
+                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/widget-gallery-6.jpg')}}" alt=""></a></li>
+                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/widget-gallery-7.jpg')}}" alt=""></a></li>
+                        <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/widget-gallery-8.jpg')}}" alt=""></a></li>
                     </ul>
                 </aside>
                 <!--// Widget Gallery \\-->
