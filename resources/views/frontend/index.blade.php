@@ -8,36 +8,34 @@
     <!--// Slider \\-->
     <div class="sportsmagazine-banner-one">
         <div class="sportsmagazine-banner-one-layer">
-            <img src="extra-images/banner-1.jpg" alt="">
+            <img src="{{asset('frontend/extra-images/banner-1.jpg')}}" alt="">
             <span class="sportsmagazine-banner-pattren"></span>
             <div class="sportsmagazine-banner-caption">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="sportsmagazine-banner-wrap">
-                                <h1><span>We Are</span> Developing The <strong class="sportsmagazine-color">Game</strong> <span>Be Our Partner</span></h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac malesuada ante Curabitur lacinia diam tempus tempor consectetur. Sed vitae dignissim purueget aliquam libero.</p>
-                                <a href="404.html" class="sportsmagazine-banner-btn">Read More <span></span></a>
+                                <h1><span>Stay Updated</span>Latest Scores and Highlights from <strong class="sportsmagazine-color">Basketball Tournament</strong></h1>
+                                <p>Join the basketball for an ultimate basketball showdown! Compete with the best and be part of a thrilling community. Register now – every shot counts!</p>
                             </div>
-                            <div class="sportsmagazine-banner-thumb"> <img src="extra-images/banner-thumb-1.png" alt=""> </div>
-                        </div>
+                            <div class="sportsmagazine-banner-thumb"> <img src="{{asset('frontend/extra-images/banner-thumb-1.png')}}" alt=""> </div>
+                        </div>t
                     </div>
                 </div>
             </div>
         </div>
         <div class="sportsmagazine-banner-one-layer">
-            <img src="extra-images/banner-2.jpg" alt="">
+            <img src="{{asset('frontend/extra-images/banner-2.jpg')}}" alt="">
             <span class="sportsmagazine-banner-pattren"></span>
             <div class="sportsmagazine-banner-caption">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="sportsmagazine-banner-wrap">
-                                <h1><span>We Are</span> Developing The <strong class="sportsmagazine-color">Soccer</strong> <span>Be Our Partner</span></h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac malesuada ante Curabitur lacinia diam tempus tempor consectetur. Sed vitae dignissim purueget aliquam libero.</p>
-                                <a href="404.html" class="sportsmagazine-banner-btn">Read More <span></span></a>
+                                <h1><span>Don't Miss Out</span>Register Today For Our <strong class="sportsmagazine-color">Basketball Tournament</strong></h1>
+                                <p>Join the basketball for an ultimate basketball showdown! Compete with the best and be part of a thrilling community. Register now – every shot counts!</p>
                             </div>
-                            <div class="sportsmagazine-banner-thumb"> <img src="extra-images/banner-thumb-1.png" alt=""> </div>
+                            <div class="sportsmagazine-banner-thumb"> <img src="{{asset('frontend/extra-images/banner-thumb-1.png')}}" alt=""> </div>
                         </div>
                     </div>
                 </div>
@@ -62,49 +60,49 @@
                     <div class="sportsmagazine-fixture-slider">
 
                         <div class="sportsmagazine-fixture-slider-layer">
-                            <time datetime="2008-02-14 20:00">August 23, 2016</time>
+                            <time datetime="2008-02-14 20:00">August 23, 2024</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child">ARS <span>03</span></li>
                                 <li>CHL <span>02</span></li>
                             </ul>
                         </div>
                         <div class="sportsmagazine-fixture-slider-layer">
-                            <time datetime="2008-02-14 20:00">August 25, 2016</time>
+                            <time datetime="2008-02-14 20:00">August 25, 2024</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child">BRC <span>05</span></li>
                                 <li>RM <span>02</span></li>
                             </ul>
                         </div>
                         <div class="sportsmagazine-fixture-slider-layer">
-                            <time datetime="2008-02-14 20:00">August 28, 2016</time>
+                            <time datetime="2008-02-14 20:00">August 28, 2024</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child">CIT <span>03</span></li>
                                 <li>KIN <span>03</span></li>
                             </ul>
                         </div>
                         <div class="sportsmagazine-fixture-slider-layer">
-                            <time datetime="2008-02-14 20:00">August 31, 2016</time>
+                            <time datetime="2008-02-14 20:00">August 31, 2024</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child">ST <span>00</span></li>
                                 <li>FRA <span>01</span></li>
                             </ul>
                         </div>
                         <div class="sportsmagazine-fixture-slider-layer sportsmagazine-fixture-booked">
-                            <time datetime="2008-02-14 20:00">September 03, 2016</time>
+                            <time datetime="2008-02-14 20:00">September 03, 2024</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child"><small>SPA</small> VS <span>RM</span></li>
                                 <li>Full Booked</li>
                             </ul>
                         </div>
                         <div class="sportsmagazine-fixture-slider-layer">
-                            <time datetime="2008-02-14 20:00">September 05, 2016</time>
+                            <time datetime="2008-02-14 20:00">September 05, 2024</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child">ARS <span>03</span></li>
                                 <li>CHL <span>02</span></li>
                             </ul>
                         </div>
                         <div class="sportsmagazine-fixture-slider-layer sportsmagazine-fixture-booked">
-                            <time datetime="2008-02-14 20:00">December 31, 2016</time>
+                            <time datetime="2008-02-14 20:00">December 31, 2024</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child"><small>SPA</small> VS <span>RM</span></li>
                                 <li>Full Booked</li>
@@ -125,7 +123,7 @@
                     <!--// Featured Slider \\-->
                     <div class="sportsmagazine-featured-slider">
                         <div class="sportsmagazine-featured-slider-layer">
-                            <img src="extra-images/featured-slider-1.jpg" alt="">
+                            <img src="{{asset('frontend/extra-images/featured-slider-1.jpg')}}" alt="">
                             <span class="sportsmagazine-black-transparent"></span>
                             <div class="sportsmagazine-featured-caption">
                                 <h2>Fusce at molestie elit, sit amet Curabitur in tellus non risu illa vitae non nunc</h2>
@@ -133,7 +131,7 @@
                             </div>
                         </div>
                         <div class="sportsmagazine-featured-slider-layer">
-                            <img src="extra-images/featured-slider-2.jpg" alt="">
+                            <img src="{{asset('frontend/extra-images/featured-slider-2.jpg')}}" alt="">
                             <span class="sportsmagazine-black-transparent"></span>
                             <div class="sportsmagazine-featured-caption">
                                 <h2>Fusce at molestie elit, sit amet Curabitur in tellus non risu illa vitae non nunc</h2>
@@ -147,11 +145,11 @@
                     <div class="sportsmagazine-match-result">
                         <div class="sportsmagazine-match-title">
                             <h4>Latest Match Result</h4>
-                            <span>Saturday, March 24th, 2016</span>
+                            <span>Saturday, March 24th, 2024</span>
                         </div>
                         <ul>
                             <li>
-                                <img src="extra-images/latest-result-logo-1.png" alt="">
+                                <img src="{{asset('frontend/extra-images/latest-result-logo-1.png')}}" alt="">
                                 <h4><a href="fixture-detail.html">Yorkshire</a></h4>
                                 <span>03 Mark Baily (21)</span>
                             </li>
@@ -160,7 +158,7 @@
                                 <p><strong class="sportsmagazine-color">79</strong> <small>:</small> 73</p>
                             </li>
                             <li>
-                                <img src="extra-images/latest-result-logo-2.png" alt="">
+                                <img src="{{asset('frontend/extra-images/latest-result-logo-2.png')}}" alt="">
                                 <h4><a href="fixture-detail.html">Sharks Club</a></h4>
                                 <span>03 Mark Baily (21)</span>
                             </li>
@@ -177,18 +175,18 @@
                         <ul class="row">
                             <li class="col-md-6">
                                 <figure>
-                                    <a href="blog-detail.html"><img src="extra-images/latest-blog-1.jpg" alt=""></a>
+                                    <a href="blog-detail.html"><img src="{{asset('frontend/extra-images/latest-blog-1.jpg')}}" alt=""></a>
                                     <figcaption>
                                         <span><small>Featured</small></span>
                                         <a href="blog-detail.html" class="sportsmagazine-link-btn"><i class="fa fa-link"></i></a>
                                     </figcaption>
                                 </figure>
                                 <section>
-                                    <h2><a href="blog-detail.html">The new eco friendly stadium won a Leafy Award in 2016</a></h2>
+                                    <h2><a href="blog-detail.html">The new eco friendly stadium won a Leafy Award in 2024</a></h2>
                                     <p>Lorem ipsum dolor sit amet, consecttur adipis elit. Vestibulum a nunc dui. Curabitr dignissi luctus nisi id euismod. feugiat eros. Pellentesque tempus tortor.</p>
                                 </section>
                                 <div class="sportsmagazine-blog-grid-options">
-                                    <a href="blog-detail.html" class="sportsmagazine-blog-grid-thumb"><img src="extra-images/blog-thumb-1.jpg" alt=""> Julia Martyn</a>
+                                    <a href="blog-detail.html" class="sportsmagazine-blog-grid-thumb"><img src="{{asset('frontend/extra-images/blog-thumb-1.jpg')}}" alt=""> Julia Martyn</a>
                                     <ul>
                                         <li><i class="fa fa-thumbs-o-up"></i> <a href="404.html">320</a></li>
                                         <li><i class="fa fa-eye"></i> <a href="404.html">840</a></li>
@@ -198,7 +196,7 @@
                             </li>
                             <li class="col-md-6 sportsmagazine-the-league">
                                 <figure>
-                                    <a href="blog-detail.html"><img src="extra-images/latest-blog-2.jpg" alt=""></a>
+                                    <a href="blog-detail.html"><img src="{{asset('frontend/extra-images/latest-blog-2.jpg')}}" alt=""></a>
                                     <figcaption>
                                         <span><small>The League</small></span>
                                         <a href="blog-detail.html" class="sportsmagazine-link-btn"><i class="fa fa-link"></i></a>
@@ -209,7 +207,7 @@
                                     <p>Lorem ipsum dolor sit amet, consecttur adipis elit. Vestibulum a nunc dui. Curabitr dignissi luctus nisi id euismod. feugiat eros. Pellentesque tempus tortor.</p>
                                 </section>
                                 <div class="sportsmagazine-blog-grid-options">
-                                    <a href="blog-detail.html" class="sportsmagazine-blog-grid-thumb"><img src="extra-images/blog-thumb-1.jpg" alt=""> Julia Martyn</a>
+                                    <a href="blog-detail.html" class="sportsmagazine-blog-grid-thumb"><img src="{{asset('frontend/extra-images/blog-thumb-1.jpg')}}" alt=""> Julia Martyn</a>
                                     <ul>
                                         <li><i class="fa fa-thumbs-o-up"></i> <a href="404.html">320</a></li>
                                         <li><i class="fa fa-eye"></i> <a href="404.html">840</a></li>
@@ -225,7 +223,7 @@
                                 <ul class="row">
                                     <li class="col-md-12 sportsmagazine-the-team">
                                         <figure>
-                                            <a href="blog-detail.html"><img src="extra-images/latest-blog-3.jpg" alt=""></a>
+                                            <a href="blog-detail.html"><img src="{{asset('frontend/extra-images/latest-blog-3.jpg')}}" alt=""></a>
                                             <figcaption>
                                                 <span><small>The Team</small></span>
                                                 <a href="blog-detail.html" class="sportsmagazine-link-btn"><i class="fa fa-link"></i></a>
@@ -236,7 +234,7 @@
                                             <p>Lorem ipsum dolor sit amet, consecttur adipis elit. Vestibulum a nunc dui. Curabitr dignissi luctus nisi id euismod. feugiat eros. Pellentesque tempus tortor.</p>
                                         </section>
                                         <div class="sportsmagazine-blog-grid-options">
-                                            <a href="blog-detail.html" class="sportsmagazine-blog-grid-thumb"><img src="extra-images/blog-thumb-1.jpg" alt=""> Julia Martyn</a>
+                                            <a href="blog-detail.html" class="sportsmagazine-blog-grid-thumb"><img src="{{asset('frontend/extra-images/blog-thumb-1.jpg')}}" alt=""> Julia Martyn</a>
                                             <ul>
                                                 <li><i class="fa fa-thumbs-o-up"></i> <a href="404.html">320</a></li>
                                                 <li><i class="fa fa-eye"></i> <a href="404.html">840</a></li>
@@ -261,7 +259,7 @@
                                     <li class="col-md-12 playoffs">
                                         <div class="sportsmagazine-blog-list-wrap">
                                             <span>Playoffs</span>
-                                            <h6><a href="blog-detail.html">The new eco friendly stadium won a Leafy Award in 2016</a></h6>
+                                            <h6><a href="blog-detail.html">The new eco friendly stadium won a Leafy Award in 2024</a></h6>
                                             <time datetime="2008-02-14 20:00">August 23rd, 2017</time>
                                             <p>Lorem ipsum dolor sit amet, consecttur adipis elit. Vestibulum a nunc dui.</p>
                                         </div>
@@ -269,7 +267,7 @@
                                     <li class="col-md-12 playoffs">
                                         <div class="sportsmagazine-blog-list-wrap">
                                             <span>Playoffs</span>
-                                            <h6><a href="blog-detail.html">The new eco friendly stadium won a Leafy Award in 2016</a></h6>
+                                            <h6><a href="blog-detail.html">The new eco friendly stadium won a Leafy Award in 2024</a></h6>
                                             <time datetime="2008-02-14 20:00">August 23rd, 2017</time>
                                             <p>Lorem ipsum dolor sit amet, consecttur adipis elit. Vestibulum a nunc dui.</p>
                                         </div>
@@ -282,7 +280,7 @@
 
                     <!--// Advertisement \\-->
                     <figure class="sportsmagazine-add-banner">
-                        <img src="extra-images/add-thumb-1.jpg" alt="">
+                        <img src="{{asset('frontend/extra-images/add-thumb-1.jpg')}}" alt="">
                         <span class="sportsmagazine-add-transparent"></span>
                         <figcaption>
                             <div class="sportsmagazine-addbanner-caption">
@@ -302,7 +300,7 @@
 
                         <div class="sportsmagazine-player-slider-image">
                             <div class="sportsmagazine-player-image-layer">
-                                <img src="extra-images/player-slider-image-1.png" alt="">
+                                <img src="{{asset('frontend/extra-images/player-slider-image-1.png')}}" alt="">
                                 <div class="sportsmagazine-player-slider-caption">
                                     <span>97</span>
                                     <section>
@@ -312,7 +310,7 @@
                                 </div>
                             </div>
                             <div class="sportsmagazine-player-image-layer">
-                                <img src="extra-images/player-slider-image-2.png" alt="">
+                                <img src="{{asset('frontend/extra-images/player-slider-image-2.png')}}" alt="">
                                 <div class="sportsmagazine-player-slider-caption">
                                     <span>38</span>
                                     <section>
@@ -322,7 +320,7 @@
                                 </div>
                             </div>
                             <div class="sportsmagazine-player-image-layer">
-                                <img src="extra-images/player-slider-image-3.png" alt="">
+                                <img src="{{asset('frontend/extra-images/player-slider-image-3.png')}}" alt="">
                                 <div class="sportsmagazine-player-slider-caption">
                                     <span>97</span>
                                     <section>
@@ -332,7 +330,7 @@
                                 </div>
                             </div>
                             <div class="sportsmagazine-player-image-layer">
-                                <img src="extra-images/player-slider-image-2.png" alt="">
+                                <img src="{{asset('frontend/extra-images/player-slider-image-2.png')}}" alt="">
                                 <div class="sportsmagazine-player-slider-caption">
                                     <span>10</span>
                                     <section>
@@ -342,7 +340,7 @@
                                 </div>
                             </div>
                             <div class="sportsmagazine-player-image-layer">
-                                <img src="extra-images/player-slider-image-1.png" alt="">
+                                <img src="{{asset('frontend/extra-images/player-slider-image-1.png')}}" alt="">
                                 <div class="sportsmagazine-player-slider-caption">
                                     <span>97</span>
                                     <section>
@@ -401,7 +399,7 @@
                         <ul>
                             <li>
                                 <figure>
-                                    <a data-fancybox-group="group" href="extra-images/gallery-modren-img1.jpg" class="fancybox"><img src="extra-images/gallery-modren-img1.jpg" alt=""><i class="icon-signs23"></i></a>
+                                    <a data-fancybox-group="group" href="extra-images/gallery-modren-img1.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/gallery-modren-img1.jpg')}}" alt=""><i class="icon-signs23"></i></a>
                                     <span>12 Photos</span>
                                     <figcaption>
                                         <h6><a href="#">The Champion Final will be played</a></h6>
@@ -411,7 +409,7 @@
                             </li>
                             <li>
                                 <figure>
-                                    <a data-fancybox-group="group" href="extra-images/gallery-modren-img2.jpg" class="fancybox"><img src="extra-images/gallery-modren-img2.jpg" alt=""><i class="icon-signs23"></i></a>
+                                    <a data-fancybox-group="group" href="extra-images/gallery-modren-img2.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/gallery-modren-img2.jpg')}}" alt=""><i class="icon-signs23"></i></a>
                                     <span>11 Photos</span>
                                     <figcaption>
                                         <h6><a href="#">The Champion Final will be played</a></h6>
@@ -421,7 +419,7 @@
                             </li>
                             <li>
                                 <figure>
-                                    <a data-fancybox-group="group" href="extra-images/gallery-modren-img3.jpg" class="fancybox"><img src="extra-images/gallery-modren-img3.jpg" alt=""><i class="icon-signs23"></i></a>
+                                    <a data-fancybox-group="group" href="extra-images/gallery-modren-img3.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/gallery-modren-img3.jpg')}}" alt=""><i class="icon-signs23"></i></a>
                                     <span>7 Photos</span>
                                     <figcaption>
                                         <h6><a href="#">The Champion Final will be played</a></h6>
@@ -431,7 +429,7 @@
                             </li>
                             <li>
                                 <figure>
-                                    <a data-fancybox-group="group" href="extra-images/gallery-modren-img4.jpg" class="fancybox"><img src="extra-images/gallery-modren-img4.jpg" alt=""><i class="icon-signs23"></i></a>
+                                    <a data-fancybox-group="group" href="extra-images/gallery-modren-img4.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/gallery-modren-img4.jpg')}}" alt=""><i class="icon-signs23"></i></a>
                                     <span>4 Photos</span>
                                     <figcaption>
                                         <h6><a href="#">The Champion Final will be played</a></h6>
@@ -441,7 +439,7 @@
                             </li>
                             <li>
                                 <figure>
-                                    <a data-fancybox-group="group" href="extra-images/gallery-modren-img5.jpg" class="fancybox"><img src="extra-images/gallery-modren-img5.jpg" alt=""><i class="icon-signs23"></i></a>
+                                    <a data-fancybox-group="group" href="extra-images/gallery-modren-img5.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/gallery-modren-img5.jpg')}}" alt=""><i class="icon-signs23"></i></a>
                                     <span>13 Photos</span>
                                     <figcaption>
                                         <h6><a href="#">The Champion Final will be played</a></h6>
@@ -451,7 +449,7 @@
                             </li>
                             <li>
                                 <figure>
-                                    <a data-fancybox-group="group" href="extra-images/gallery-modren-img6.jpg" class="fancybox"><img src="extra-images/gallery-modren-img6.jpg" alt=""><i class="icon-signs23"></i></a>
+                                    <a data-fancybox-group="group" href="extra-images/gallery-modren-img6.jpg" class="fancybox"><img src="{{asset('frontend/extra-images/gallery-modren-img6.jpg')}}" alt=""><i class="icon-signs23"></i></a>
                                     <span>6 Photos</span>
                                     <figcaption>
                                         <h6><a href="#">The Champion Final will be played</a></h6>
@@ -484,7 +482,7 @@
                         <div class="ranking-content-table">
                             <ul class="ranking-content-row">
                                 <li>1</li>
-                                <li> <img src="extra-images/ranking-widget-flag-1.png" alt="">
+                                <li> <img src="{{asset('frontend/extra-images/ranking-widget-flag-1.png')}}" alt="">
                                     <div class="ranking-logo"><span>L.A Pirates</span> <small>Bebop Institute</small> </div>
                                 </li>
                                 <li>08</li>
@@ -495,7 +493,7 @@
                         <div class="ranking-content-table">
                             <ul class="ranking-content-row">
                                 <li>2</li>
-                                <li> <img src="extra-images/ranking-widget-flag-2.png" alt="">
+                                <li> <img src="{{asset('frontend/extra-images/ranking-widget-flag-2.png')}}" alt="">
                                     <div class="ranking-logo"><span>Ocean Kings</span> <small>Icarus College</small> </div>
                                 </li>
                                 <li>08</li>
@@ -506,7 +504,7 @@
                         <div class="ranking-content-table">
                             <ul class="ranking-content-row">
                                 <li>3</li>
-                                <li> <img src="extra-images/ranking-widget-flag-3.png" alt="">
+                                <li> <img src="{{asset('frontend/extra-images/ranking-widget-flag-3.png')}}" alt="">
                                     <div class="ranking-logo"><span>Red Wings</span> <small>Marine College</small> </div>
                                 </li>
                                 <li>07</li>
@@ -517,7 +515,7 @@
                         <div class="ranking-content-table">
                             <ul class="ranking-content-row">
                                 <li>4</li>
-                                <li> <img src="extra-images/ranking-widget-flag-4.png" alt="">
+                                <li> <img src="{{asset('frontend/extra-images/ranking-widget-flag-4.png')}}" alt="">
                                     <div class="ranking-logo"><span>Lucky Clovers</span> <small>Elric Bros School</small> </div>
                                 </li>
                                 <li>07</li>
@@ -528,7 +526,7 @@
                         <div class="ranking-content-table">
                             <ul class="ranking-content-row">
                                 <li>5</li>
-                                <li> <img src="extra-images/ranking-widget-flag-5.png" alt="">
+                                <li> <img src="{{asset('frontend/extra-images/ranking-widget-flag-5.png')}}" alt="">
                                     <div class="ranking-logo"><span>Draconians</span> <small>Atlantic School</small> </div>
                                 </li>
                                 <li>06</li>
@@ -539,7 +537,7 @@
                         <div class="ranking-content-table">
                             <ul class="ranking-content-row">
                                 <li>6</li>
-                                <li> <img src="extra-images/ranking-widget-flag-6.png" alt="">
+                                <li> <img src="{{asset('frontend/extra-images/ranking-widget-flag-6.png')}}" alt="">
                                     <div class="ranking-logo"><span>Bloody Wave</span> <small>Marine College</small> </div>
                                 </li>
                                 <li>06</li>
@@ -550,7 +548,7 @@
                         <div class="ranking-content-table">
                             <ul class="ranking-content-row">
                                 <li>7</li>
-                                <li> <img src="extra-images/ranking-widget-flag-7.png" alt="">
+                                <li> <img src="{{asset('frontend/extra-images/ranking-widget-flag-7.png')}}" alt="">
                                     <div class="ranking-logo"><span>Ocean Kings</span> <small>St. Patrick’s Institute</small> </div>
                                 </li>
                                 <li>06</li>
@@ -561,7 +559,7 @@
                         <div class="ranking-content-table">
                             <ul class="ranking-content-row">
                                 <li>8</li>
-                                <li> <img src="extra-images/ranking-widget-flag-2.png" alt="">
+                                <li> <img src="{{asset('frontend/extra-images/ranking-widget-flag-2.png')}}" alt="">
                                     <div class="ranking-logo"><span>Sharks</span> <small>Icarus College</small> </div>
                                 </li>
                                 <li>06</li>
@@ -732,7 +730,7 @@
                         </div>
                         <ul>
                             <li>
-                                <img src="extra-images/widget-next-match-logo-1.png" alt="">
+                                <img src="{{asset('frontend/extra-images/widget-next-match-logo-1.png')}}" alt="">
                                 <h6><a href="fixture-detail.html">Basketball</a></h6>
                                 <small>Sports And Magazine</small>
                             </li>
@@ -743,7 +741,7 @@
                                 </div>
                             </li>
                             <li>
-                                <img src="extra-images/widget-next-match-logo-2.png" alt="">
+                                <img src="{{asset('frontend/extra-images/widget-next-match-logo-2.png')}}" alt="">
                                 <h6><a href="fixture-detail.html">Combine</a></h6>
                                 <small>ST Paddy's Institute</small>
                             </li>
@@ -773,7 +771,7 @@
 
                     <!--// Widget Add \\-->
                     <div class="widget widget_add">
-                        <img src="extra-images/add.jpg" alt="">
+                        <img src="{{asset('frontend/extra-images/add.jpg')}}" alt="">
                     </div>
                     <!--// Widget Add \\-->
 

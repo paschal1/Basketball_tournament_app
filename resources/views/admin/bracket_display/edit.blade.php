@@ -30,6 +30,7 @@
                         <div class="basic-form">
                             <form action="{{ route('brackets.store')}}" method="POST">
                                 @csrf
+                                @method('PUT')
                                 <div class="form-group col-md-6">
                                     <label>Tournament Name</label>
                                     <select id="inputState" class="form-control" name="tournament_id">

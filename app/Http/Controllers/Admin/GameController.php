@@ -94,7 +94,7 @@ class GameController extends Controller
      */
     public function update(Request $request, Game $game)
     {
-        // $game = Game::find($gameid);
+         $game = Game::find($game);
         if ($request->hasFile('file')) {
             $path = 'assets/uploads/games' . $game->file;
 
@@ -114,7 +114,7 @@ class GameController extends Controller
         $game->time = $request->input('time');
         $game->game_status = $request->input('game_status');
         $game->notes = $request->input('notes');
-        $game->update();
+        $game->save();
 
         return redirect()->route( route:'games.index')->with('status', 'Game Updated Successfully');
     }

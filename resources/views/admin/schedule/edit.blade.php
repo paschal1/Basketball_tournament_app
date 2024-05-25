@@ -181,6 +181,7 @@
                         <div class="basic-form">
                             <form action="{{ url('update', $schedule->id)}}" method="POST">
                                 @csrf
+                                @method('PUT')
                                 <div class="form-row">
                                     <div class="col-lg-12 mb-4">
                                         <div class="form-group">

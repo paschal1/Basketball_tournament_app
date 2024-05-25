@@ -60,49 +60,49 @@
                     <div class="sportsmagazine-fixture-slider">
 
                         <div class="sportsmagazine-fixture-slider-layer">
-                            <time datetime="2008-02-14 20:00">August 23, 2024</time>
+                            <time datetime="2008-02-14 20:00">August 23, 2016</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child">ARS <span>03</span></li>
                                 <li>CHL <span>02</span></li>
                             </ul>
                         </div>
                         <div class="sportsmagazine-fixture-slider-layer">
-                            <time datetime="2008-02-14 20:00">August 25, 2024</time>
+                            <time datetime="2008-02-14 20:00">August 25, 2016</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child">BRC <span>05</span></li>
                                 <li>RM <span>02</span></li>
                             </ul>
                         </div>
                         <div class="sportsmagazine-fixture-slider-layer">
-                            <time datetime="2008-02-14 20:00">August 28, 2024</time>
+                            <time datetime="2008-02-14 20:00">August 28, 2016</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child">CIT <span>03</span></li>
                                 <li>KIN <span>03</span></li>
                             </ul>
                         </div>
                         <div class="sportsmagazine-fixture-slider-layer">
-                            <time datetime="2008-02-14 20:00">August 31, 2024</time>
+                            <time datetime="2008-02-14 20:00">August 31, 2016</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child">ST <span>00</span></li>
                                 <li>FRA <span>01</span></li>
                             </ul>
                         </div>
                         <div class="sportsmagazine-fixture-slider-layer sportsmagazine-fixture-booked">
-                            <time datetime="2008-02-14 20:00">September 03, 2024</time>
+                            <time datetime="2008-02-14 20:00">September 03, 2016</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child"><small>SPA</small> VS <span>RM</span></li>
                                 <li>Full Booked</li>
                             </ul>
                         </div>
                         <div class="sportsmagazine-fixture-slider-layer">
-                            <time datetime="2008-02-14 20:00">September 05, 2024</time>
+                            <time datetime="2008-02-14 20:00">September 05, 2016</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child">ARS <span>03</span></li>
                                 <li>CHL <span>02</span></li>
                             </ul>
                         </div>
                         <div class="sportsmagazine-fixture-slider-layer sportsmagazine-fixture-booked">
-                            <time datetime="2008-02-14 20:00">December 31, 2024</time>
+                            <time datetime="2008-02-14 20:00">December 31, 2016</time>
                             <ul class="sportsmagazine-bgcolor">
                                 <li class="first-child"><small>SPA</small> VS <span>RM</span></li>
                                 <li>Full Booked</li>
@@ -145,7 +145,7 @@
                     <div class="sportsmagazine-match-result">
                         <div class="sportsmagazine-match-title">
                             <h4>Latest Match Result</h4>
-                            <span>Saturday, March 24th, 2024</span>
+                            <span>Saturday, March 24th, 2016</span>
                         </div>
                         <ul>
                             <li>
@@ -182,7 +182,7 @@
                                     </figcaption>
                                 </figure>
                                 <section>
-                                    <h2><a href="blog-detail.html">The new eco friendly stadium won a Leafy Award in 2024</a></h2>
+                                    <h2><a href="blog-detail.html">The new eco friendly stadium won a Leafy Award in 2016</a></h2>
                                     <p>Lorem ipsum dolor sit amet, consecttur adipis elit. Vestibulum a nunc dui. Curabitr dignissi luctus nisi id euismod. feugiat eros. Pellentesque tempus tortor.</p>
                                 </section>
                                 <div class="sportsmagazine-blog-grid-options">
@@ -259,7 +259,7 @@
                                     <li class="col-md-12 playoffs">
                                         <div class="sportsmagazine-blog-list-wrap">
                                             <span>Playoffs</span>
-                                            <h6><a href="blog-detail.html">The new eco friendly stadium won a Leafy Award in 2024</a></h6>
+                                            <h6><a href="blog-detail.html">The new eco friendly stadium won a Leafy Award in 2016</a></h6>
                                             <time datetime="2008-02-14 20:00">August 23rd, 2017</time>
                                             <p>Lorem ipsum dolor sit amet, consecttur adipis elit. Vestibulum a nunc dui.</p>
                                         </div>
@@ -267,7 +267,7 @@
                                     <li class="col-md-12 playoffs">
                                         <div class="sportsmagazine-blog-list-wrap">
                                             <span>Playoffs</span>
-                                            <h6><a href="blog-detail.html">The new eco friendly stadium won a Leafy Award in 2024</a></h6>
+                                            <h6><a href="blog-detail.html">The new eco friendly stadium won a Leafy Award in 2016</a></h6>
                                             <time datetime="2008-02-14 20:00">August 23rd, 2017</time>
                                             <p>Lorem ipsum dolor sit amet, consecttur adipis elit. Vestibulum a nunc dui.</p>
                                         </div>

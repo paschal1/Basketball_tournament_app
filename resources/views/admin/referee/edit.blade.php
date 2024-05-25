@@ -30,6 +30,7 @@
                         <div class="basic-form">
                             <form action="{{ route('referees.store')}}" method="POST">
                                 @csrf
+                                @method('PUT')
                                 <input type="hidden" class="form-control" name="tournament_id">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">

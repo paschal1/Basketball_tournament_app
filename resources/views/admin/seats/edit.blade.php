@@ -30,6 +30,7 @@
                         <div class="basic-form">
                             <form action="{{ url('seats.update')}}" method="POST">
                                 @csrf
+                                @method('PUT')
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label>Seat Name</label>
